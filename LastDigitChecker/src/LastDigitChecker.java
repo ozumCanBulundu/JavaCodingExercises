@@ -34,5 +34,18 @@ NOTE: Do not add a main method to the solution code.
  */
 
 public class LastDigitChecker {
-    
+    public static boolean isValid(int num){
+        return (num > 9) && (num < 1001);
+    }
+    public static boolean hasSameLastDigit(int num1,int num2,int num3){
+        if(isValid(num1) && isValid(num2) && isValid(num2)){
+            num1 %= 10;
+            num2 %= 10;
+            num3 %= 10;
+
+            return (num1 == num2) || (num1 == num3) || (num2 == num3);
+        }
+        return false;
+    }
+
 }
