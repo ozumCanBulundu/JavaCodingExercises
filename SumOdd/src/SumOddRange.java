@@ -38,17 +38,27 @@ NOTE: Do not add a  main method to solution code.
 
 public class SumOddRange {
     public static boolean isOdd(int number){
-        if(number > 0)
-            if(number / 2 == 1)
-                return true;
-            else
-                return false;
-        else
+        if(number <0 ){
             return false;
+        }
+        return number % 2 != 0;
     }
 
-    public static boolean sumOdd(int num1, int num2){
+    public static int sumOdd(int start, int end){
 
+        if ((end < start) || (end<0) || (start <0) ){
+            return -1;
+        }
+        int sum1 =0;
+
+        for (int i=start ; i<=end ; i++){
+            if (isOdd(i)){
+                sum1 = sum1 + i;
+
+            }
+        }
+
+        return sum1;
     }
 
 }
