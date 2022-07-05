@@ -22,9 +22,6 @@ NOTE: Do not add a main method to the solution code.
  */
 
 public class EvenDigitSum {
-    public static void main(String[] args) {
-        System.out.println(getEvenDigitSum(231231));
-    }
     public static int getEvenDigitSum(int number){
         int isEven=0,sum=0;
         if(number < 0)
@@ -39,7 +36,8 @@ public class EvenDigitSum {
                     continue;
 
             }
-            return isEven;
+
+            return sum;
         }
     }
 }
