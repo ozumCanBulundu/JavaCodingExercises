@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/DecimalComparator/DecimalComparator.iml" filepath="$PROJECT_DIR$/DecimalComparator/DecimalComparator.iml" />
       <module fileurl="file://$PROJECT_DIR$/EqualSumChecker/EqualSumChecker.iml" filepath="$PROJECT_DIR$/EqualSumChecker/EqualSumChecker.iml" />
       <module fileurl="file://$PROJECT_DIR$/EqualityPrinter/EqualityPrinter.iml" filepath="$PROJECT_DIR$/EqualityPrinter/EqualityPrinter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstAndLastDigit/FirstAndLastDigit.iml" filepath="$PROJECT_DIR$/FirstAndLastDigit/FirstAndLastDigit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaCodingExercises.iml" filepath="$PROJECT_DIR$/.idea/JavaCodingExercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeapYearCalculator/LeapYearCalculator.iml" filepath="$PROJECT_DIR$/LeapYearCalculator/LeapYearCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/MegaBytesConverter/MegaBytesConverter.iml" filepath="$PROJECT_DIR$/MegaBytesConverter/MegaBytesConverter.iml" />
