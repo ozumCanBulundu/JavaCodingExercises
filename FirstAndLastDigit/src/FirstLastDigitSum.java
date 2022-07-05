@@ -1,4 +1,7 @@
 /*
+
+Couldn't fix the problem.will look later.
+
 Write a method named sumFirstAndLastDigit with one parameter of type int called number.
 
 The method needs to find the first and the last digit of the parameter number passed to the method,
@@ -28,6 +31,18 @@ NOTE: Do not add a  main method to solution code.
 
 public class FirstLastDigitSum {
     public static int sumFirstAndLastDigit(int number){
-
+        int last=0,first=0,sum=0;
+        if(number < 0)
+            return -1;
+        else
+            last = number % 10;
+            while(number > 9){
+                first=number / 10;
+            }
+            if (number < 10) {
+                first = number;
+            }
+        sum=first + last;
+        return sum;
     }
 }
