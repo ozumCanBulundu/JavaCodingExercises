@@ -39,5 +39,19 @@ NOTE: Do not add a main method to the solution code.
  */
 
 public class GreatestCommonDivisor {
+    public static int getGreatestCommonDivisor(int first, int second){
+        int number = 0,result = 1;
 
+        if(first < 10 || second < 10)
+            return -1;
+        else
+            while(number != first){
+                number++;
+                if(first % number == 0 && second % number == 0){
+                    result = number;
+                }
+
+        }
+        return result;
+    }
 }
