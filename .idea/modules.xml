@@ -33,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/Person/Person.iml" filepath="$PROJECT_DIR$/Person/Person.iml" />
       <module fileurl="file://$PROJECT_DIR$/PlayingCat/PlayingCat.iml" filepath="$PROJECT_DIR$/PlayingCat/PlayingCat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Point/Point.iml" filepath="$PROJECT_DIR$/Point/Point.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PoolArea/PoolArea.iml" filepath="$PROJECT_DIR$/PoolArea/PoolArea.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharedDigit/SharedDigit.iml" filepath="$PROJECT_DIR$/SharedDigit/SharedDigit.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpeedConverter/SpeedConverter.iml" filepath="$PROJECT_DIR$/SpeedConverter/SpeedConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumCalculator/SumCalculator.iml" filepath="$PROJECT_DIR$/SumCalculator/SumCalculator.iml" />
