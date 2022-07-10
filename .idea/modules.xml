@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/BarkingDog/BarkingDog.iml" filepath="$PROJECT_DIR$/BarkingDog/BarkingDog.iml" />
       <module fileurl="file://$PROJECT_DIR$/CarpetCostCalculator/CarpetCostCalculator.iml" filepath="$PROJECT_DIR$/CarpetCostCalculator/CarpetCostCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComplexOperations/ComplexOperations.iml" filepath="$PROJECT_DIR$/ComplexOperations/ComplexOperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cylinder/Cylinder.iml" filepath="$PROJECT_DIR$/Cylinder/Cylinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/DecimalComparator/DecimalComparator.iml" filepath="$PROJECT_DIR$/DecimalComparator/DecimalComparator.iml" />
       <module fileurl="file://$PROJECT_DIR$/DiagonalStar/DiagonalStar.iml" filepath="$PROJECT_DIR$/DiagonalStar/DiagonalStar.iml" />
       <module fileurl="file://$PROJECT_DIR$/EqualSumChecker/EqualSumChecker.iml" filepath="$PROJECT_DIR$/EqualSumChecker/EqualSumChecker.iml" />
