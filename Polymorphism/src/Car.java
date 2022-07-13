@@ -89,6 +89,11 @@ public class Car {
     public Car(int cylinders, String name) {
         this.cylinders = cylinders;
         this.name = name;
+        this.engine = true;
+        this.wheels = 4;
     }
 
+    public String startEngine(){
+        return "Engine is starting";
+    }
 }
