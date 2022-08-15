@@ -94,6 +94,26 @@ public class Car {
     }
 
     public String startEngine(){
-        return "Engine is starting";
+        return this.getName();
+    }
+
+    public String accelerate() {return this.getName();}
+
+    public String brake() {return this.getName();}
+
+    public int getCylinders() {
+        return cylinders;
+    }
+
+    public void setCylinders(int cylinders) {
+        this.cylinders = cylinders;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
