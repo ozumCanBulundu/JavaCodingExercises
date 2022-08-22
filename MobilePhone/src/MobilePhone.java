@@ -75,10 +75,11 @@ import java.util.ArrayList;
 public class MobilePhone {
 
     private String myNumber;
-    private ArrayList<Contacts> myContacts = new ArrayList<Contacts>();
+    private ArrayList<Contacts> myContacts;
 
     private MobilePhone(String myNumber){
-
+        this.myNumber = myNumber;
+        this.myContacts = new ArrayList<Contacts>();
     }
 
     public boolean addContact(Contacts contact){
@@ -98,7 +99,12 @@ public class MobilePhone {
     }
 
     public int findContact(String s){
-        return 0;
+        for(Contacts contact : myContacts){
+            if(contact.getName().equals(s)){
+                return myContacts.indexOf(contact);
+            }
+        }
+        return -1;
     }
 
     public Contacts queryContact(String s){

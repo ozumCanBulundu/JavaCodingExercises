@@ -40,7 +40,7 @@ public class Contacts {
     private String name;
     private String phoneNumber;
 
-    private Contacts(String name,String phoneNumber){
+    public Contacts(String name,String phoneNumber){
         this.name = name;
         this.phoneNumber = phoneNumber;
     }
@@ -55,6 +55,6 @@ public class Contacts {
 
     public static Contacts createContact(String name,String phoneNumber) {
 
-        return null;
+        return new Contacts(name,phoneNumber);
     }
 }
