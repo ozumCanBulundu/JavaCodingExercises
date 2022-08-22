@@ -5,12 +5,12 @@ Create a program that implements a simple mobile phone with the following capabi
 
  Two fields, a String called myNumber and an ArrayList of type Contact called myContacts.
 
- A constructor that takes a String (the phone number) and
+A constructor that takes a String (the phone number) and
 initialises myNumber and instantiates myContacts.
 
  And seven methods, they are (their functions are in their names):
 
- addNewContact(), has one parameter of type Contact and returns a boolean.
+addNewContact(), has one parameter of type Contact and returns a boolean.
 Returns true if the contact doesn't exists, or false if the contact already exists.
 
 updateContact(), has two parameters of type Contact
@@ -79,5 +79,33 @@ public class MobilePhone {
 
     private MobilePhone(String myNumber){
 
+    }
+
+    public boolean addContact(Contacts contact){
+        return true;
+    }
+
+    public boolean updateContact(Contacts contact1,Contacts contact2){
+        return true;
+    }
+
+    public boolean removeContact(Contacts contact){
+        return true;
+    }
+
+    public int findContact(Contacts contact){
+        return 1;
+    }
+
+    public int findContact(String s){
+        return 0;
+    }
+
+    public Contacts queryContact(String s){
+        return null;
+    }
+
+    public void printContacts(){
+        System.out.println();
     }
 }
